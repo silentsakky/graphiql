@@ -78,7 +78,8 @@
     "test:coverage": "yarn jest --coverage",
     "test:watch": "yarn jest --watch",
     "testonly": "jest && yarn workspace codemirror-graphql run test",
-    "tsc": "tsc --build"
+    "tsc": "tsc --build",
+    "postinstall": "yarn run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
